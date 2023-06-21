@@ -1,6 +1,6 @@
 id_values = '0123456789abcdefghijklmnoprtuwvsxyz'
 
-
+test = "sebastian szkolik"
 def next_position(position):
     if position == 'z':
         position = '0'
