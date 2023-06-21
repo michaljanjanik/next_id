@@ -1,5 +1,7 @@
 id_values = '0123456789abcdefghijklmnoprtuwvsxyz'
 
+test="teofil"
+
 
 def next_position(position):
     if position == 'z':
@@ -29,3 +31,4 @@ assert '00000' == next_id(param)
 
 param = '0000z'
 assert '00010' == next_id(param)
+
